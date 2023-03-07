@@ -1,4 +1,5 @@
 const Employee = require("../lib/Employee");
+const employee = new Employee('Mark', '5768098', 'mark_thompsom@gmail.com');
 
 test("Can instantiate Employee instance", () => {
   const e = new Employee();
