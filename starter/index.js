@@ -37,9 +37,58 @@ inquirer.prompt([
         name: 'role',
         message: 'Please enter your name',
         type: 'list',
-        choices:[Manager, Engineer, Intern],
+        choices:["Add engineer", "Add intern", "Finish creating the team"],
 
+    },
+    {
+        name: 'engineer',
+        message: 'Please type the engineers name',
+        type: 'input',
+        
+    },
+    {
+        name: 'engineer id',
+        message: 'Please type the engineers ID',
+        type: 'input',
+        
+    },
+    {
+        name: 'engineer email',
+        message: 'Please type the email address',
+        type: 'input',
+        
+    },
+    {
+        name: 'engineer github',
+        message: 'Please type the GitHub username',
+        type: 'input',
+        
+    },
+    {
+        name: 'intern name',
+        message: 'What is the interns name?',
+        type: 'input',
+        
+    },
+    {
+        name: 'intern id',
+        message: 'Please type the ID',
+        type: 'input',
+        
+    },
+    {
+        name: 'intern email',
+        message: 'Please type the email address',
+        type: 'input',
+        
+    },
+    {
+        name: 'school',
+        message: 'What is the interns school?',
+        type: 'input',
+        
     }
+
       
 ])
 .then(function(answer){
