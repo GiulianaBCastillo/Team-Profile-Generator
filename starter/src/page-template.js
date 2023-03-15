@@ -115,4 +115,19 @@ module.exports = team => {
 </body>
 </html>
     `;
+    
+    // for (let i=0; i < team.lenght; i++) {
+    //     if (team[i].getRole() === 'Manager') {
+    //         generateManager(team[i]);
+    //     };
+    //     if (team[i].getRole() === 'Engineer') {
+    //         generateEngineer(team[i]);
+    //     };
+    //     if (team[i].getRole() === 'Intern') {
+    //         generateIntern(team[i]);
+    //     };
+    // }
+
+    // return html.join('');
 };
+
